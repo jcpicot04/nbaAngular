@@ -1,0 +1,8 @@
+<div class="card" id="card" style="width: 18rem;">
+  <img class="card-img-top" src={{equipo.png}} alt={{equipo.full_name}}>
+  <div class="card-body">
+    <h5 class="card-title">{{equipo.full_name}}</h5>
+    <p class="card-text">{{equipo.conference}}</p>
+    <a class="btn btn-primary" [routerLink]="['/equipo',equipo.full_name]" >+INFO</a>
+  </div>
+</div>

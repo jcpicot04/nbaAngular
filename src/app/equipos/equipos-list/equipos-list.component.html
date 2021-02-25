@@ -1,0 +1,5 @@
+<h1 style="margin-left: 5%; margin-top: 4%;">Equipos</h1>
+<input type="text" style="margin-left: 5%; margin-top: 1%;" id="buscadorequipos" [(ngModel)]="criterio"/>
+<ul>
+<app-equipos-item [equipo]="equipo" *ngFor="let equipo of equipos | filtro:criterio"></app-equipos-item>
+</ul>

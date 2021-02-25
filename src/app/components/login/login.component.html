@@ -1,0 +1,17 @@
+<div class="container">
+  <form action="" class="form--sign-in">
+    <legend><h5>Inicia sesión</h5></legend>
+    <fieldset>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="username" name="login" [(ngModel)] = "user.login" required>
+        <label class="mdl-textfield__label" for="username"> &nbsp; &nbsp; Correo electrónico</label><br>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="password" id="password" name="passwd" [(ngModel)] = "user.passwd" required>
+        <label class="mdl-textfield__label" for="password" > &nbsp; &nbsp; Contraseña</label><br>
+        <input type="checkbox" value="remember-me" [(ngModel)]="recordar">Recuerdame<br><br>
+      </div>
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" (click)="login($event);">Sign in</button>
+    </fieldset>
+  </form>
+</div>

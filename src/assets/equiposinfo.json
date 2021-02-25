@@ -1,0 +1,7 @@
+{"equiposinfo": [
+        {"equipo":"Boston Celtics","nombre": "Jayson Tatum","pos":"F-G","no": "#0","altura": "6-8","peso": "210 lbs","cumpleaños":"MAR 03, 1998","edad": "22","exp":"3","escuela":"Duke"},
+        {"equipo":"Boston Celtics","nombre": "Carsen Edwards","pos":"G","no": "#4","altura": "5-11","peso": "200 lbs","cumpleaños":"MAR 12, 1998","edad": "22","exp":"1","escuela":"Purdue"},
+        {"equipo":"Boston Celtics","nombre": "Jaylen Brown","pos":"G-F","no": "#7","altura": "5-11","peso": "223 lbs","cumpleaños":"OCT 24, 1996","edad": "24","exp":"4","escuela":"California"},
+        {"equipo":"Boston Celtics","nombre": "Kemba Walker","pos":"G","no": "#8","altura": "6-0","peso": "184 lbs","cumpleaños":"MAY 08, 1990","edad": "30","exp":"9","escuela":"Connecticut"}
+      ]}
+
